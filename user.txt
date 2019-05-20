@@ -1,0 +1,4 @@
+{
+"User":[ "admin", "keytest", "vutuananh" , "taquanghung", "long", "KEY7DAYx032", "KEY7DAYx033", "7dhaux02", "x035s3", "0x255d3", "0x34s", "0x15s", "friendskey425", "keytestx2535"],
+"Pass":[ "TEDOJI-PC", "May27", "Windows User" , "MQ9K2HZBI7GUIHU", "8560w-PC", "MAY05", "May17", "May02", "MAY17", "MAY16", "MAY10", "MAY09", "DESKTOP-RB37N2E", "ffff"]
+}
