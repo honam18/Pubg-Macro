@@ -244,7 +244,7 @@ V_AutoFire := 0
 comp := 8
 checkOk := False
 kiemTraBanQuyen := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-kiemTraBanQuyen.Open("GET", "localhost/user.txt", false) ; LOGON
+kiemTraBanQuyen.Open("GET", "https://raw.githubusercontent.com/tedoji2001/Pubg-Macro/master/user.txtt", false) ; LOGON
 kiemTraBanQuyen.Send()
 Result := kiemTraBanQuyen.ResponseText
 ResultJSON := JSON.Load(Result)
