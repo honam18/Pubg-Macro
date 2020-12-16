@@ -244,7 +244,7 @@ V_AutoFire := 0
 comp := 8
 checkOk := False
 kiemTraBanQuyen := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-kiemTraBanQuyen.Open("GET", "https://ditmemay.000webhostapp.com/user.txt", false)
+kiemTraBanQuyen.Open("GET", "localhost/user.txt", false) ; LOGON
 kiemTraBanQuyen.Send()
 Result := kiemTraBanQuyen.ResponseText
 ResultJSON := JSON.Load(Result)
